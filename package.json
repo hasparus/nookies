@@ -1,14 +1,17 @@
 {
-  "name": "nookies",
+  "name": "@hasparus/nookies",
   "description": "A set of cookie helpers for Next.js",
-  "version": "0.0.0-semantic-release",
+  "version": "2.3.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "maticzav/nookies",
   "author": {
-    "name": "Matic Zavadlal",
+    "name": "Matic Zavagdlal",
     "email": "matic.zavadlal@gmail.com"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rimraf dist",
     "compile": "tsc -d && yarn run minify",
